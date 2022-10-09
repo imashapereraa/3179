@@ -13,14 +13,18 @@
 </head>
 <body>
   
-<div id="scatter_plot"></div>
+<div id="map"></div>
+<div id="heat_map"></div>
 
 <script type="text/javascript">
 
   var spec2 = "js/map.vg.json";
-  vegaEmbed('#scatter_plot', spec2).then(function(result) {
+  vegaEmbed('#map', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
+  var choropleth = "js/heatmap.vg.json";
+    vegaEmbed('#heat_map', choropleth).then(function (result) {
+           }).catch(console.error);
 </script>
 
 </body>
