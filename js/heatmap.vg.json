@@ -1,0 +1,82 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+      "url": "https://raw.githubusercontent.com/imashapereraa/week9/main/data/Crash_Data.csv"
+  },
+   "params": [{
+      "name": "Continent_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Vic",
+          "SA",
+          "Qld",
+          "WA",
+          "Tas",
+          "NSW",
+          "NT",
+          "ACT"
+        ],
+        "labels": [
+          "Show All",
+          "Victoria",
+          "South Australia",
+          "Queensland",
+          "West Australia",
+          "Tasmania",
+          "New South Wales",
+          "Northern Territory",
+          "Australian Capital Territory"
+        ],
+        "name": "State Selection: "
+      }
+    }],
+    "transform": [
+        
+        {
+          "filter": "Continent_selection == null || datum.State == Continent_selection"
+        }
+      ],
+  "title": "Heat Map of Total Crashes Per Month",
+  "config": {
+      "view": {
+          "strokeWidth": 0,
+          "step": 13
+      },
+      "axis": {
+          "domain": false
+      }
+  },
+  "mark": "rect",
+  "encoding": {
+      "x": {
+       "field": "Year",
+          "timeUnit": "year",
+          "type": "ordinal",
+          "title": "Year"
+
+      },
+      "y": {
+          "field": "Month",
+          "timeUnit": "month",
+          "type": "ordinal",
+          "title": "Month of Crashes"
+      },
+      "color": {
+          "field": "Road User",
+          "aggregate": "count",
+          "type": "quantitative",
+          "legend": {
+              "title": null
+          }
+      },
+      "tooltip": [
+          {"field": "Year",
+          "timeUnit": "year",
+          "type": "ordinal",
+          "title": "Year"},
+          {"field": "Road User", "aggregate": "count", "type": "quantitative", "title":"Crashes"}
+        ]
+  }
+}
