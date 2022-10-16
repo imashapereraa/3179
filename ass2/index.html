@@ -11,26 +11,29 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
   
 </head>
-<body style="background-color: ">
+<body style="background-color: tan">
 <div style="text-align: center;">
   <h1>Car Crashes Statistics In Australia</h1>
-  <div>
-    <p></p>
-    <div id="map"></div>
+  <div class="row">
+    <div class="column"><p>Choropleth map showing the spread o</p></div>
+    <div class="column"><div id="map"></div></div>
   </div>
   <br>
-  <div>
-  <div id="heat_map"></div>
+  <div class="row">
+    <div class="column"><p>Choropleth map showing the spread o</p></div>
+    <div class="column"><div id="heat_map"></div></div>
   </div>
-  <div>
-    <div id="heat_map"></div>
+  <br>
+  <div class="row">
+    <div class="column"><p>Choropleth map showing the spread o</p></div>
+    <div class="column"><div id="linechart"></div></div>
   </div>
-  <div>
-    <div id="bubble"></div>
+  <div class="row">
+    <div class="column"><p>Choropleth map showing the spread o</p></div>
+    <div class="column"><div id="bubble"></div></div>
   </div>
 </div>
 <script type="text/javascript">
-
   var map = "js/map.vg.json";
   vegaEmbed('#map', map).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -39,7 +42,7 @@
     vegaEmbed('#heat_map', choropleth).then(function (result) {
   }).catch(console.error);
   var linechart = "js/linechart.vg.json";
-    vegaEmbed('#hlinechart', linechart).then(function (result) {
+    vegaEmbed('#linechart', linechart).then(function (result) {
   }).catch(console.error);
   var bubble = "js/bubble.vg.json";
     vegaEmbed('#bubble', bubble).then(function (result) {
