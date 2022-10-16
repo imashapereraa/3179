@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/imashapereraa/3179/main/ass2/data/Total_Crash_Data_Bubble.csv"
+  },
+  "width": 600,
+  "height": 400,
+  "transform": [
+    {"filter": "datum.Entity !== 'All natural disasters'"}
+  ],
+  "mark": {
+    "type": "circle",
+    "opacity": 0.8,
+    "stroke": "black",
+    "strokeWidth": 1
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": {"grid": false}
+    },
+    "y": {"field": "Entity", "type": "nominal", "axis": {"offset": 40}},
+    "size": {
+      "field": "Total",
+      "type": "quantitative",
+      "title": "Annual Fatal Deaths",
+      "legend": {"clipHeight": 30},
+      "scale": {"rangeMax": 5000}
+    },
+    "color": {"field": "Entity", "type": "nominal", "legend": null},
+     "tooltip": [
+      {"title":"Total Crashes", "type": "quantitative", "field": "Total"},
+      {"title":"Year",  "type": "ordinal", "timeUnit":"year", "field": "Year"}
+    ]
+  }
+}
