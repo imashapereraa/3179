@@ -46,7 +46,8 @@
       },
       "axis": {
           "domain": false
-      }
+      },
+      "background": "#FFF8F0"
   },
   "mark": "rect",
   "encoding": {

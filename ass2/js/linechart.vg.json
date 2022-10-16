@@ -2,6 +2,9 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Multi Line Chart of Total Crashes.",
   "title": "Multi-series Linechart of Total Crashes Per Year",
+  "config":{
+    "background": "#FFF8F0"
+  },
   "data": {"url": "https://raw.githubusercontent.com/imashapereraa/3179/main/ass2/data/Total_Crash_Data.csv"}, 
     "params": [
     {

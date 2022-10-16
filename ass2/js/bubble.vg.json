@@ -4,6 +4,9 @@
   "data": {
     "url": "https://raw.githubusercontent.com/imashapereraa/3179/main/ass2/data/Total_Crash_Data_Bubble.csv"
   },
+  "config":{
+    "background": "#FFF8F0"
+  },
   "width": 600,
   "height": 400,
   "transform": [
