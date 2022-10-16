@@ -1,4 +1,4 @@
-Year,State,Female_Total,Male_Total,Total,Male_0_to_16,Male_17_to_25,Male_26_to_39,Male_40_to_64,Male_65_to_74,Male_75_or_older,Female_0_to_16,Female_17_to_25,Female_26_to_39,Female_40_to_64,Female_65_to_74,Female_75_or_older
+Year,State,Female Total,Male Total,Total,Male (0 to 16),Male_17_to_25,Male_26_to_39,Male_40_to_64,Male_65_to_74,Male_75_or_older,Female_0_to_16,Female_17_to_25,Female_26_to_39,Female_40_to_64,Female_65_to_74,Female_75_or_older
 1989,ACT,10,22,32,1,13,4,3,1,,1,3,2,3,,1
 1990,ACT,9,17,26,2,5,5,3,1,1,,1,3,2,2,1
 1991,ACT,7,10,17,1,7,1,,1,,2,2,,,2,1
