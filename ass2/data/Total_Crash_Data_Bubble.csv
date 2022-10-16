@@ -1,34 +1,226 @@
-Year,Driver,Motorcycle pillion passenger,Motorcycle rider,Other,Passenger,Pedal cyclist,Pedestrian
-1989,1122,30,269,0,780,98,501
-1990,935,21,241,0,634,80,420
-1991,910,21,227,0,554,58,343
-1992,815,19,178,1,570,41,350
-1993,859,16,187,2,513,45,331
-1994,809,14,176,2,501,59,367
-1995,874,10,194,2,491,48,398
-1996,869,16,177,1,499,57,351
-1997,776,13,164,3,431,52,328
-1998,741,11,170,3,468,44,318
-1999,820,12,164,1,428,40,299
-2000,852,9,182,6,450,31,287
-2001,776,6,210,2,407,46,290
-2002,785,9,215,1,422,34,249
-2003,747,10,178,8,420,26,232
-2004,760,11,184,3,362,43,220
-2005,775,10,223,5,347,41,226
-2006,757,9,229,2,336,39,228
-2007,785,11,226,1,336,41,204
-2008,670,11,234,1,303,28,189
-2009,707,8,216,4,333,31,196
-2010,636,10,214,5,284,38,170
-2011,568,11,191,3,286,34,186
-2012,610,12,211,3,260,33,170
-2013,557,12,201,2,204,50,158
-2014,533,5,186,10,228,45,151
-2015,555,6,197,6,251,31,161
-2016,622,8,241,3,208,29,182
-2017,566,5,206,5,235,39,161
-2018,521,1,190,7,204,35,177
-2019,570,4,206,3,205,39,159
-2020,533,8,180,5,188,41,138
-2021,401,4,170,7,131,28,102
+Year,Entity,Total
+1989,Driver,1122
+1989,Motorcycle pillion passenger,30
+1989,Motorcycle rider,269
+1989,Passenger,780
+1989,Pedal cyclist,98
+1989,Pedestrian,501
+1990,Driver,935
+1990,Motorcycle pillion passenger,21
+1990,Motorcycle rider,241
+1990,Passenger,634
+1990,Pedal cyclist,80
+1990,Pedestrian,420
+1991,Driver,910
+1991,Motorcycle pillion passenger,21
+1991,Motorcycle rider,227
+1991,Passenger,554
+1991,Pedal cyclist,58
+1991,Pedestrian,343
+1992,Driver,815
+1992,Motorcycle pillion passenger,19
+1992,Motorcycle rider,178
+1992,Other/-9,1
+1992,Passenger,570
+1992,Pedal cyclist,41
+1992,Pedestrian,350
+1993,Driver,859
+1993,Motorcycle pillion passenger,16
+1993,Motorcycle rider,187
+1993,Other/-9,2
+1993,Passenger,513
+1993,Pedal cyclist,45
+1993,Pedestrian,331
+1994,Driver,809
+1994,Motorcycle pillion passenger,14
+1994,Motorcycle rider,176
+1994,Other/-9,2
+1994,Passenger,501
+1994,Pedal cyclist,59
+1994,Pedestrian,367
+1995,Driver,874
+1995,Motorcycle pillion passenger,10
+1995,Motorcycle rider,194
+1995,Other/-9,2
+1995,Passenger,491
+1995,Pedal cyclist,48
+1995,Pedestrian,398
+1996,Driver,869
+1996,Motorcycle pillion passenger,16
+1996,Motorcycle rider,177
+1996,Other/-9,1
+1996,Passenger,499
+1996,Pedal cyclist,57
+1996,Pedestrian,351
+1997,Driver,776
+1997,Motorcycle pillion passenger,13
+1997,Motorcycle rider,164
+1997,Other/-9,3
+1997,Passenger,431
+1997,Pedal cyclist,52
+1997,Pedestrian,328
+1998,Driver,741
+1998,Motorcycle pillion passenger,11
+1998,Motorcycle rider,170
+1998,Other/-9,3
+1998,Passenger,468
+1998,Pedal cyclist,44
+1998,Pedestrian,318
+1999,Driver,820
+1999,Motorcycle pillion passenger,12
+1999,Motorcycle rider,164
+1999,Other/-9,1
+1999,Passenger,428
+1999,Pedal cyclist,40
+1999,Pedestrian,299
+2000,Driver,852
+2000,Motorcycle pillion passenger,9
+2000,Motorcycle rider,182
+2000,Other/-9,6
+2000,Passenger,450
+2000,Pedal cyclist,31
+2000,Pedestrian,287
+2001,Driver,776
+2001,Motorcycle pillion passenger,6
+2001,Motorcycle rider,210
+2001,Other/-9,2
+2001,Passenger,407
+2001,Pedal cyclist,46
+2001,Pedestrian,290
+2002,Driver,785
+2002,Motorcycle pillion passenger,9
+2002,Motorcycle rider,215
+2002,Other/-9,1
+2002,Passenger,422
+2002,Pedal cyclist,34
+2002,Pedestrian,249
+2003,Driver,747
+2003,Motorcycle pillion passenger,10
+2003,Motorcycle rider,178
+2003,Other/-9,8
+2003,Passenger,420
+2003,Pedal cyclist,26
+2003,Pedestrian,232
+2004,Driver,760
+2004,Motorcycle pillion passenger,11
+2004,Motorcycle rider,184
+2004,Other/-9,3
+2004,Passenger,362
+2004,Pedal cyclist,43
+2004,Pedestrian,220
+2005,Driver,775
+2005,Motorcycle pillion passenger,10
+2005,Motorcycle rider,223
+2005,Other/-9,5
+2005,Passenger,347
+2005,Pedal cyclist,41
+2005,Pedestrian,226
+2006,Driver,757
+2006,Motorcycle pillion passenger,9
+2006,Motorcycle rider,229
+2006,Passenger,336
+2006,Pedal cyclist,39
+2006,Pedestrian,228
+2007,Driver,785
+2007,Motorcycle pillion passenger,11
+2007,Motorcycle rider,226
+2007,Passenger,336
+2007,Pedal cyclist,41
+2007,Pedestrian,204
+2008,Driver,670
+2008,Motorcycle pillion passenger,11
+2008,Motorcycle rider,234
+2008,Other/-9,2
+2008,Passenger,303
+2008,Pedal cyclist,28
+2008,Pedestrian,189
+2009,Driver,707
+2009,Motorcycle pillion passenger,8
+2009,Motorcycle rider,216
+2009,Passenger,333
+2009,Pedal cyclist,31
+2009,Pedestrian,196
+2010,Driver,636
+2010,Motorcycle pillion passenger,10
+2010,Motorcycle rider,214
+2010,Other/-9,1
+2010,Passenger,284
+2010,Pedal cyclist,38
+2010,Pedestrian,170
+2011,Driver,568
+2011,Motorcycle pillion passenger,11
+2011,Motorcycle rider,191
+2011,Other/-9,1
+2011,Passenger,286
+2011,Pedal cyclist,34
+2011,Pedestrian,186
+2012,Driver,610
+2012,Motorcycle pillion passenger,12
+2012,Motorcycle rider,211
+2012,Other/-9,4
+2012,Passenger,260
+2012,Pedal cyclist,33
+2012,Pedestrian,170
+2013,Driver,557
+2013,Motorcycle pillion passenger,12
+2013,Motorcycle rider,201
+2013,Other/-9,5
+2013,Passenger,204
+2013,Pedal cyclist,50
+2013,Pedestrian,158
+2014,Driver,533
+2014,Motorcycle pillion passenger,5
+2014,Motorcycle rider,186
+2014,Other/-9,3
+2014,Passenger,228
+2014,Pedal cyclist,45
+2014,Pedestrian,151
+2015,nn,555
+2015,Motorcycle pillion passenger,6
+2015,Motorcycle rider,197
+2015,Other/-9,3
+2015,Passenger,251
+2015,Pedal cyclist,31
+2015,Pedestrian,161
+2016,Driver,622
+2016,Motorcycle pillion passenger,8
+2016,Motorcycle rider,241
+2016,Other/-9,2
+2016,Passenger,208
+2016,Pedal cyclist,29
+2016,Pedestrian,182
+2017,Driver,566
+2017,Motorcycle pillion passenger,5
+2017,Motorcycle rider,206
+2017,Other/-9,10
+2017,Passenger,235
+2017,Pedal cyclist,39
+2017,Pedestrian,161
+2018,Driver,521
+2018,Motorcycle pillion passenger,1
+2018,Motorcycle rider,190
+2018,Other/-9,6
+2018,Passenger,204
+2018,Pedal cyclist,35
+2018,Pedestrian,177
+2019,Driver,570
+2019,Motorcycle pillion passenger,4
+2019,Motorcycle rider,206
+2019,Other/-9,3
+2019,Passenger,205
+2019,Pedal cyclist,39
+2019,Pedestrian,159
+2020,Driver,533
+2020,Motorcycle pillion passenger,8
+2020,Motorcycle rider,180
+2020,Other/-9,5
+2020,Passenger,188
+2020,Pedal cyclist,41
+2020,Pedestrian,138
+2021,Driver,401
+2021,Motorcycle pillion passenger,4
+2021,Motorcycle rider,170
+2021,Other/-9,7
+2021,Passenger,131
+2021,Pedal cyclist,28
+2021,Pedestrian,102
