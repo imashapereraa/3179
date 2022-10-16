@@ -3,6 +3,7 @@
   "data": {
       "url": "https://raw.githubusercontent.com/imashapereraa/week9/main/data/Crash_Data.csv"
   },
+  "background": "#FFF8F0",
    "params": [{
       "name": "Continent_selection",
       "bind": {
