@@ -1,0 +1,26 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Multi Line Chart of Total Crashes.",
+  "data": {"url": "https://raw.githubusercontent.com/imashapereraa/3179/main/ass2/data/Total_Crash_Data.csv"}, 
+    "params": [
+    {
+      "name": "Gender_Selection",
+      "value": "Total",
+      "bind": {
+        "input": "select",
+        "options": ["Total", "Female Total", "Male Total", "Male (0 to 16)",	"Male (17 to 25)",	"Male (26 to 39)",	"Male (40 to 64)",	"Male (65 to 74)",	"Male (75 or older)",	"Female (0 to 16)",	"Female (17 to 25)",	"Female (26 to 39)",	"Female (40 to 64)",	"Female (65 to 74)",	"Female (75 or older)"
+]
+      }
+    }
+  ],
+  "transform": [{"calculate": "datum[Gender_Selection]", "as": "y"}],
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Year", "type": "ordinal", "timeUnit":"year", "title":"Year"},
+    "y": {"field": "y", "type": "quantitative", "title":"Total Crashes"},
+    "color": {"field": "State", "type": "nominal"},
+     "tooltip": [
+      {"title":"Total Crashes", "type": "quantitative", "field": "y"}
+    ]
+  }
+}
