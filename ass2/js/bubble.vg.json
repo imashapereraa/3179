@@ -20,12 +20,12 @@
       "type": "temporal",
       "axis": {"grid": false}
     },
-    "y": {"field": "Entity", "type": "nominal", "axis": {"offset": 40}},
+    "y": {"field": "Entity", "type": "nominal", "axis": {"offset": 40},    "title": "Catoegeaths"},
     "size": {
       "field": "Total",
       "type": "quantitative",
       "title": "Annual Fatal Deaths",
-      "legend": {"clipHeight": 30},
+      "legend": {"clipHeight": 30, "offset": 30},
       "scale": {"rangeMax": 5000}
     },
     "color": {"field": "Entity", "type": "nominal", "legend": null},
