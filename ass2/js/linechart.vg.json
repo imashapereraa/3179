@@ -7,7 +7,7 @@
     "params": [
     {
       "name": "Gender_Selection",
-      "value": "Total",
+      "value": "Female Total",
       "bind": {
         "input": "select",
         "options": ["Total", "Female Total", "Male Total", "Male (0 to 16)",	"Male (17 to 25)",	"Male (26 to 39)",	"Male (40 to 64)",	"Male (65 to 74)",	"Male (75 or older)",	"Female (0 to 16)",	"Female (17 to 25)",	"Female (26 to 39)",	"Female (40 to 64)",	"Female (65 to 74)",	"Female (75 or older)"
